@@ -1,0 +1,29 @@
+{
+  "auto_ocr": true,
+  "smart_classify": true,
+  "analysis_depth": "深度分析",
+  "ocr_thread_mode": "multi",
+  "ocr_thread_count": 4,
+  "max_threads": 8,
+  "our_docs_patterns": "我方,起诉状,答辞状,上诉状,代理词,申请书",
+  "opponent_docs_patterns": "对方,被告,原告,反驳,反诉,答辩",
+  "court_docs_patterns": "法院,裁定,判决,通知,传票,开庭,受理,调解",
+  "our_evidence_patterns": "我方证据,己方证据,我方提供,己方提供,我方材料,证据目录",
+  "opponent_evidence_patterns": "对方证据,对方提供,被告证据,原告证据,对方材料",
+  "file_type_weights": {
+    "pdf": 1.0,
+    "document": 0.9,
+    "image": 0.8
+  },
+  "ocr_settings": {
+    "pdf_dpi": 300,
+    "image_dpi": 300,
+    "lang": "chi_sim+eng",
+    "timeout": 30
+  },
+  "content_extraction": {
+    "max_text_length": 50000,
+    "extract_tables": true,
+    "extract_images": true
+  }
+}

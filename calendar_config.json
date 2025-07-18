@@ -1,0 +1,14 @@
+{
+  "enabled_event_types": [
+    "court_hearing",
+    "payment",
+    "wechat",
+    "appeal",
+    "meeting",
+    "deadline",
+    "trial",
+    "mediation",
+    "execution",
+    "other"
+  ]
+}

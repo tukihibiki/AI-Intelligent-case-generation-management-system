@@ -1,0 +1,6 @@
+{
+  "save_to_source_folder": true,
+  "custom_save_path": "",
+  "auto_generate_filename": true,
+  "filename_template": "{source_name}_{timestamp}_{format}"
+}
